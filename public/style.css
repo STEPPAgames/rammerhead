@@ -1,19 +1,22 @@
 body {
-  background-color: rgb(255, 239, 231);
+  background-color: rgb(30, 30, 30);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
   text-align: center;
+  color: white;
 }
 
 header h1 {
   margin-top: 0;
   font-weight: bold;
+  color: white;
 }
 
 header img {
   width: 200px;
+  color: white;
 }
 
 .input-group-text, .disable-text {
@@ -22,13 +25,29 @@ header img {
 }
 
 table.table-bordered {
-  border: 1px solid #c1c1c1;
+  border: 1px solid white;
+  color: white;
 }
 
 table.table-bordered>thead>tr>th {
-  border: 1px solid #c1c1c1;
+  border: 1px solid white;
+  color: white;
 }
 
 table.table-bordered>tbody>tr>td {
-  border: 1px solid #c1c1c1;
+  border: 1px solid white;
+  color: white;
+}
+
+p {
+  color: white;
+}
+div{
+  color: white;
+}
+button{
+  color: white
+}
+btn btn-success{
+  color: white
 }
